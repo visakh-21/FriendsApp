@@ -1,0 +1,33 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER NAME"
+        android:id="@+id/nm"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER YOUR FRIENDS NAME"
+        android:id="@+id/frnd"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER YOUR FRIENDS NICKNAME"
+        android:id="@+id/frnick"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="DESCRIBE YOUR FRIEND"
+        android:id="@+id/frdes"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:id="@+id/sbt"/>
+
+</LinearLayout>
